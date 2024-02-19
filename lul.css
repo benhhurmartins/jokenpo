@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background:url("https://source.unsplash.com/1600x900/?landscape");
+    background-size:cover;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 80vh;
+}
+.caixa{
+    padding:20px;
+    background-color: #C4F5EB;
+    border-radius:10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ opacity: 0.8;
+}
+.botoes{
+    margin:30px 0px;
+    display:flex;
+    gap:40px;
+   
+}
+button{
+    padding: 10px;
+    font-size: 25px;
+    cursor:pointer;
+    border-radius:10px;
+    transition:opacity 0.5s ease-in-out ;
+}
+button:hover{
+    opacity: 0.7;
+}
+#pedra{
+    background-color:aqua;
+}
+#papel{
+    background-color:red;
+}
+#tesoura{
+    background-color:#E97735 ;
+}
+
+p{
+    font-weight: bold;
+    margin-bottom:10px;
+}
+.mpontuação span {
+    color: red;
+}
+.suapontua span {
+    color:green;
+}
